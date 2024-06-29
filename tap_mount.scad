@@ -1,7 +1,7 @@
 /**
 Run get_deps.sh to clone dependencies into a linked folder in your home directory.
 
-Print with about -0.08m horizontal expansion, so things can actually fit together.
+Print with about -0.16m horizontal expansion, so things can actually fit together.
 */
 
 use <deps.link/BOSL/nema_steppers.scad>
@@ -112,7 +112,7 @@ module base() {
 
 ty(-40) mount(TAP_9_D);
 ty(-90) mount(TAP_18_D);
-!base();
+base();
 
 // For vis only
 *translate([
